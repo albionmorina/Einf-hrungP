@@ -21,15 +21,20 @@ print("y=", y)
 
 ################################################
 
-age = input("Enter your age: ") # das nimmt input von Benutzer
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-print(first_name, last_name, "is", age, "years old.")
+#age = input("Enter your age: ") # das nimmt input von Benutzer
+#first_name = input("Enter your first name: ")
+#last_name = input("Enter your last name: ")
+#print(first_name, last_name, "is", age, "years old.")
 
-x = (2/3)
 
-print("2/3 = {:4.2f}".format(x))
-print("2/3 = {:5.3f}".format(x))
-print("2/3 = {:6.2f}".format(x))
+
+x = 2 / 3
+
+print("2/3 = {:4.2f}".format(x))  # Output: 2/3 = 0.67
+print("2/3 = {:5.3f}".format(x))  # Output: 2/3 = 0.667
+print("2/3 = {:6.2f}".format(x))  # Output: 2/3 =   0.67
 
 #die zweite methode mit format 
+
+# int steht für Ganze Zahlen
+# 
